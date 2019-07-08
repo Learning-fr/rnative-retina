@@ -8,10 +8,12 @@ import { Icon } from "expo";
 import Logo from "./components/Logo";
 import { NotificationIcon } from "./components/Icons";
 import Course from "./components/Course";
+import Menu from "./components/Menu";
 
 export default function App() {
   return (
     <Container>
+      <Menu />
       <SafeAreaView>
         <ScrollView>
           <TitleBar>
